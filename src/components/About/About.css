@@ -1,0 +1,22 @@
+.aboutSection{
+    width:100%!important;
+    margin:auto!important;
+    background-color:#333!important;
+
+}
+.imageSectionAbout{
+    background-color:#fff;
+    border:5px solid black!important;
+}
+
+
+.icon{
+    font-size:30px;
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width:768px) {
+    .detailsContainer{
+        width:90%;
+        margin:auto;
+    }
+}

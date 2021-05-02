@@ -1,0 +1,46 @@
+
+.featureImage {
+    height:20rem!important;
+    position:relative;
+}
+.featureImage::before {
+    height:20rem!important;
+    content:'';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    background-image: url('../../images/contact4.jpg');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    /* background-color: #3A4256!important; */
+    opacity:1!important;
+    z-index:-50;
+}
+.btnHover{
+    border:3px solid black;
+    border-radius:0.70rem!important;
+    background-color:#212729;
+}
+.btnHover:hover{
+    background-color: cyan!important;
+    color:black!important;
+     border:3px solid #212729;
+}
+
+
+input::placeholder {
+    color: white!important;
+    opacity: 1; 
+  }
+  input::submit{
+      color:black;
+  }
+  textarea::placeholder{
+    color: white!important;
+    opacity: 1; 
+  }
+  .btnHoverSubmit:hover{
+    background-color: cyan!important;
+    color:black!important; border:3px solid #212729;
+}
