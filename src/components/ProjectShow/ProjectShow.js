@@ -44,9 +44,14 @@ const ProjectShow = (props) => {
         // </div >
         <div className="mb-5 col-lg-4 col-sm-6">
             <div className="card shadow-lg w-100 h-100 text-center rounded ">
-                <div className="d-flex justify-content-center align-items-center h-100 contain ">
-                    <img src={image} className="card-img-top" />
-                    
+                <div className="d-flex justify-content-center align-items-center h-100 containerx ">
+                    <img src={image} className="card-img-top image" />
+                     <div className="overlay">
+                    <div className="text d-flex align-items-center justify-content-center">
+                        <a href="https://www.facebook.com/" target="_blank"> BUTTON </a>
+                        <a href="https://www.google.com/"> BUTTON </a>
+                    </div> 
+                    </div>
                 </div>
 
                 <div className="btn-group dropup">
