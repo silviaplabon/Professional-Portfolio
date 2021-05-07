@@ -1,0 +1,41 @@
+
+@media only screen and (min-device-width: 200px) and (max-device-width:550px) {
+    .ReactModal__Content{
+    width:100%!important;
+}
+.pShip{
+    margin:0!important;
+    font-size:14px!important;
+}
+}
+@media only screen and (min-device-width:200px) and (max-device-width:511px) {
+    .ulStyle{
+        display:grid!important;
+        grid-template-columns: repeat(3,1fr)!important;
+    } 
+ 
+
+}
+@media only screen and (min-device-width:512px) and (max-device-width:2000px) {
+    .ulStyle{
+        display:grid!important;
+        grid-template-columns: repeat(4,1fr)!important;
+    } 
+ 
+
+}
+
+
+.featureLi{
+    list-style-type:decimal!important;
+}
+.crossIcon{
+    color: black!important;
+}
+.modalSection{
+    background-color: #212729!important;
+}
+
+.liButton{
+    list-style-type: none!important;
+}

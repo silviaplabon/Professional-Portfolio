@@ -1,0 +1,7 @@
+.btnStyleBlog{
+    color:white!important;
+    background-color: #212729!important;
+}
+.btnStyleBlog:hover{
+    background-image:linear-gradient(-90deg,#311D4B,#149AA3,#274B6B)!important;
+}

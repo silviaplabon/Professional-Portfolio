@@ -1,0 +1,24 @@
+.flippy-front{
+   padding:0px;
+}
+.colEducation{
+     /* margin-left:10px;
+     padding-left:30px!important; */
+     padding-top:4px;
+    
+}
+.colSection{
+    height:7rem!important;
+}
+.cardBody{
+    padding:0;
+}
+.flippy-card,.flippy-back{
+    padding-left:13px!important;
+    height:8rem!important;
+    padding-bottom:0.6rem!important;
+    background-color: white!important;
+    padding-top:6px!important;
+    border-radius:0.75rem!important;
+
+}

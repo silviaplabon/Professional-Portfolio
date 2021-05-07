@@ -1,34 +1,23 @@
 
-.featureImage {
-    height:20rem!important;
-    position:relative;
-}
-.featureImage::before {
-    height:20rem!important;
-    content:'';
-    position: absolute;
-    top: 0;
-    width: 100%;
-    left: 0;
-    background-image: url('../../images/contact4.jpg');
-    background-repeat:no-repeat;
-    background-size: 100% 100%;
-    /* background-color: #3A4256!important; */
-    opacity:1!important;
-    z-index:-50;
-}
 .btnHover{
-    border:3px solid black;
+    border:2px solid white;
     border-radius:0.70rem!important;
     background-color:#212729;
 }
-.btnHover:hover{
-    background-color: cyan!important;
+.btnHoverSubmit{
+    background-color:white;
     color:black!important;
-     border:3px solid #212729;
 }
 
+.btnHover:hover{
+    background-color:#212729!important;
+    color:white!important;
+    border:3px solid white!important;
+}
 
+.btnHover:hover input::placeholder{
+    color:white!important;
+}
 input::placeholder {
     color: white!important;
     opacity: 1; 
@@ -41,6 +30,68 @@ input::placeholder {
     opacity: 1; 
   }
   .btnHoverSubmit:hover{
-    background-color: cyan!important;
-    color:black!important; border:3px solid #212729;
+    background-color: black!important;
+    color:white!important; border:3px solid #212729;
+    border:2px solid white!important;
 }
+.iconSec{
+    border-left:1px solid white;
+
+}
+.iconContact{
+    font-size:30px!important;
+}
+.colContactIcon{
+    text-align:start;
+}
+.colContactText{
+    text-align:end!important;
+}
+
+/* .colContact{
+    display:grid;
+    grid-template-columns:repeat(1,1fr);
+    text-align:center;
+} */
+@media only screen and (min-device-width: 200px) and (max-device-width:575px) {
+    .centerText{
+        text-align:center!important;
+    }
+    .colContactIcon{
+        border-left:0!important;
+        text-align:end;
+        border-top:1px solid white!important;
+        width:50%!important;
+        margin: 0 auto!important;
+        
+    }
+    #contact{
+        margin-bottom:2rem!important;
+    }
+    .rowContactEmail{
+        margin-top:0rem!important;
+    }
+    .btnHoverSubmit{
+        margin:3px 25%!important;
+    }
+    .rowContact{
+        margin-top:3rem!important;
+    }
+
+}
+
+@media only screen and (min-device-width: 576px) and (max-device-width:767px) {
+    .colContactIcon{
+        border-left:0!important;
+        text-align:end;
+    }
+    .colContactText{
+        text-align:start!important;
+        border-left:1px solid white!important;
+    }
+}
+
+
+
+
+

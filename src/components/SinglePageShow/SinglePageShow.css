@@ -1,0 +1,11 @@
+.backgroundSingleContent{
+
+   background-color:#212529;
+    background-size: 100% 100%;
+    z-index: -1;
+    opacity:1;
+    
+} 
+.contentSection{
+   padding-bottom: 10%;
+}

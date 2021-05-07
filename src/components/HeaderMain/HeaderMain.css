@@ -1,40 +1,27 @@
 
 
 .imageContainer img{
-    height:300px;
+    height:260px;
     width:300px;
     border-radius: 50%!important;
   border:10px solid #2d524a;
 }
 
- .headerMain::before {
-    height:28rem!important;
-    content:'';
-    position: absolute;
-    top: 0rem;
-    width: 100%;
-    right: 0;
-   background-color:#212529!important;
-
-    background-size: 100% 100%;
-    z-index: -1;
-    opacity:1;
-} 
-span::before {
-  content: "A PROFESSIONAL WEB DEVELOPER";
-  animation: animate infinite 3s;
-  padding-left: 10px;
+.headerMain{
+  color:black!important;
+}
+.btnDownload{
+  background-image:linear-gradient(-90deg,#003633,#004b49) ;
+  border:1px solid white!important;
+}
+.btnProject{
+  background-image:linear-gradient(-90deg,#003633,#004b49) ;
+  border:1px solid white!important;
 }
 
-@keyframes animate {
 
-  0% {
-      content: "WEB DEVELOPER";
-  }
-  50% {
-      content: "PROBLEM SOLVER";
-  }
-  100% {
-      content: "PROGRAMMER";
-  }
+:root {
+  --blink-time: 40s;
 }
+
+

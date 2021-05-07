@@ -1,0 +1,94 @@
+ .fullSection{
+   
+   
+    width: 100%;
+    background-attachment: fixed!important;
+   background-color:#212529;
+    background-size: 100% 100%
+} 
+/* @media only screen and (min-device-width: 1400px) and (max-device-width:2000px) {
+    .fullSection::before {
+        height:134rem!important;
+}
+}
+@media only screen and (min-device-width: 992px) and (max-device-width:1400px) {
+    .fullSection::before {
+        height:126rem!important;
+}
+}
+@media only screen and (min-device-width: 768px) and (max-device-width:991px) {
+    .fullSection::before {
+        height:165rem!important;
+}
+}
+@media only screen and (min-device-width: 576px) and (max-device-width:768px) {
+    .fullSection::before {
+        height:188rem!important;
+}
+}
+@media only screen and (min-device-width: 566px) and (max-device-width:575px) {
+    .fullSection::before {
+        height:288rem!important;
+}
+}
+
+@media only screen and (min-device-width: 538px) and (max-device-width:565px) {
+    .fullSection::before {
+        height:285rem!important;
+}
+}
+@media only screen and (min-device-width: 521px) and (max-device-width:538px) {
+    .fullSection::before {
+        height:281rem!important;
+}
+}
+@media only screen and (min-device-width: 493px) and (max-device-width:520px) {
+    .fullSection::before {
+        height:276rem!important;
+}
+}
+@media only screen and (min-device-width: 475px) and (max-device-width:493px) {
+    .fullSection::before {
+        height:273rem!important;
+}
+}
+@media only screen and (min-device-width: 462px) and (max-device-width:475px) {
+    .fullSection::before {
+        height:270rem!important;
+}
+}
+@media only screen and (min-device-width: 447px) and (max-device-width:462px) {
+    .fullSection::before {
+        height:268rem!important;
+}
+}
+@media only screen and (min-device-width: 423px) and (max-device-width:446px) {
+    .fullSection::before {
+        height:264rem!important;
+}
+}
+@media only screen and (min-device-width: 400px) and (max-device-width:423px) {
+    .fullSection::before {
+        height:260rem!important;
+}
+}
+@media only screen and (min-device-width: 381px) and (max-device-width:399px) {
+    .fullSection::before {
+        height:260rem!important;
+}
+}
+@media only screen and (min-device-width: 369px) and (max-device-width:380px) {
+    .fullSection::before {
+        height:258rem!important;
+}
+}
+@media only screen and (min-device-width: 300px) and (max-device-width:368px) {
+    .fullSection::before {
+        height:253rem!important;
+}
+}
+
+
+
+
+ */

@@ -1,0 +1,19 @@
+/* 
+.btn1:hover .btn2{
+    color:black!important;
+    background-color:white!important;
+}
+.btn2:hover .btn1{
+    color:black;
+    background-color:white!important;
+}
+.btn2:hover{
+    color:black!important;
+    background-color:white!important;
+
+}
+.btn1:hover{
+    color:black!important;
+    background-color:white!important;
+
+} */

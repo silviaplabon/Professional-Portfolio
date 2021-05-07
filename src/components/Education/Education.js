@@ -10,7 +10,7 @@ const Education = () => {
             course: 'Bsc in CSE(8th Semester)'
         },
         {
-            institution: 'Chittagong Goverenment Muslim High School',
+            institution: 'Chittagong Govt Muslim High School',
             year: '2011-2013',
             course: 'SSC'
         },

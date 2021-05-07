@@ -1,0 +1,21 @@
+.flippy-back{
+    padding-left:13px!important;
+    height:8rem!important;
+    padding-bottom:0.6rem!important;
+    background-color:#274B6B!important;
+    /* #149AA3,#311D4B, */
+    padding-top:6px!important;
+    border-radius:0.75rem!important;
+    color: white !important;
+}
+.flippy-front{
+    padding-left:13px!important;
+    height:8rem!important;
+    padding-bottom:0.6rem!important;
+    background-color:#fff!important;
+    padding-top:6px!important;
+    border-radius:0.75rem!important;
+}
+.textWhite{
+    color:black!important;
+}

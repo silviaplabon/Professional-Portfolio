@@ -1,0 +1,31 @@
+.image{
+    width:10px!important;
+    height:10px!important;
+}
+.iconGrid{
+    display:grid!important;
+    grid-template-columns: repeat(5,1fr)!important;
+}
+.iconSkill{
+    width:15%!important;
+    height:2.5rem!important;
+}
+.imgSkillStyle img:hover{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+/* @keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+  
+ 
+  div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  } */

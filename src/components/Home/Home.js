@@ -6,21 +6,26 @@ import EducationAndExperience from '../EducationAndExperience/EducationAndExperi
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
 import './Home.css'
+import Footer from '../Footer/Footer';
 import Skills from '../Skills/Skills';
+import Blogs from '../Blogs/Blogs';
+import AboutSection from '../AboutSection/AboutSection';
 
 const Home = () => {
     return (
-      
-                <div className="container fullSection">
-                    <Header></Header>
-                <HeaderMain></HeaderMain>
-                <About></About>
-                
-                <EducationAndExperience></EducationAndExperience>
-                <Skills></Skills>
-                <Projects></Projects>
-                <Contact></Contact>
-                </div>
+
+        <div className="fullSection">
+                 <Header></Header>
+            <HeaderMain state={true}></HeaderMain>
+            <About state={true}></About>
+            <EducationAndExperience state={true}></EducationAndExperience>
+            <Skills state={true}></Skills>
+            <Projects state={true}></Projects>
+            <Blogs></Blogs>
+            <Contact state={true}></Contact>
+            {/* <AboutSection></AboutSection> */}
+            <Footer></Footer>
+        </div>
     );
 };
 
