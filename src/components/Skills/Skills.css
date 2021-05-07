@@ -1,18 +1,22 @@
 .image{
-    width:10px!important;
-    height:10px!important;
+    width:35px!important;
+    height:35px!important;
 }
-.iconGrid{
-    display:grid!important;
-    grid-template-columns: repeat(5,1fr)!important;
-}
-.iconSkill{
-    width:15%!important;
-    height:2.5rem!important;
-}
+
+
 .imgSkillStyle img:hover{
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
+}
+.cards{
+    background-color:#4d5356;
+    /* #363c3f; */
+    height:3.5rem!important;
+    border-radius:0.65rem!important;
+}
+.cards .iconSkill{
+     width:70%;
+     height:70%;
 }
 /* @keyframes example {
     0%   {background-color: red;}
