@@ -9,7 +9,7 @@ import {
 const Header = () => {
     return (
       <div className="container">
-        <nav className="navbar navbar-expand-lg navbar-light  navbarDesign container pt-5">
+        <nav className="navbar navbar-expand-sm navbar-light  navbarDesign container pt-5">
           <div className="container-fluid ">
             <h1 className="navbar-brand h2HeaderColor fw-bold text-white" href="#">SILVIA</h1>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

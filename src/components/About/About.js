@@ -5,6 +5,7 @@ import Blink from 'react-blink-text';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faInstagram, faTwitter, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 // import ImageFadeIn from 'react-image-fade-in'
+// import RippleImage from 'ripple-image'
 const About = () => {
 
     return (
@@ -17,6 +18,7 @@ const About = () => {
                         <img src={profilePic} className="img-fluid w-75 h-75"></img>
                     {/* <ImageFadeIn width={640} height={480}  src={profilePic} /> */}
                     {/* <CrossfadeImage src={profilePic} /> */}
+                    {/* <RippleImage /> */}
                     </div>
                 </div>
                 <div className="col-md-6 col-xs-8 text-white detailsContainer">

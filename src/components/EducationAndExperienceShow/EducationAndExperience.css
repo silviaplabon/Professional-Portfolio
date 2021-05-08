@@ -17,8 +17,15 @@
     padding-left:13px!important;
     height:8rem!important;
     padding-bottom:0.6rem!important;
-    background-color: white!important;
+    background-color: red!important;
     padding-top:6px!important;
     border-radius:0.75rem!important;
-
+}
+.flippy-card,.flippy-front{
+    padding-left:13px!important;
+    height:8rem!important;
+    padding-bottom:0.6rem!important;
+    background-color: #00201d!important;
+    padding-top:6px!important;
+    border-radius:0.75rem!important;
 }

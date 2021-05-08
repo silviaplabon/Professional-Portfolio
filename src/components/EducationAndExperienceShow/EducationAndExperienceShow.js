@@ -19,11 +19,11 @@ const EducationAndExperienceShow = (props) => {
   >
     <FrontSide
       style={{
-        backgroundColor: '',
+        backgroundColor: '#00201d',
       }}
     >
          
-         <div className="card-body h-100 cardBody" style={{color:'black'}}>
+         <div className="card-body h-100 cardBody" style={{color:'white'}}>
                      <div className="" style={{height:'45%'}} >
                          <p className="card-title">{institution}</p>
                      </div>
@@ -40,8 +40,8 @@ const EducationAndExperienceShow = (props) => {
         
 
     <BackSide
-      style={{ backgroundColor: ''}}>
-       <div className="card-body h-100 cardBody" style={{color:'black'}}>
+      style={{ backgroundColor: '#00201d'}}>
+       <div className="card-body h-100 cardBody" style={{color:'white'}}>
                      <div className=""  style={{height:'45%'}} >
                          <p className="card-title text-white">{institution}</p>
                      </div>

@@ -80,15 +80,15 @@ const Contact = () => {
                 <div className="d-flex justify-content-center align-items-center">
                     <form onSubmit={onSubmit} className="text-white w-100 mt-5 text-white ">
                         <input type='text' name='from_name' id="from_name" className="btnHover form-control w-100 my-1  btn btn-outline-primary text-white"
-                            style={{backgroundColor:'#004b49'}} placeholder='name'
+                            style={{backgroundColor:'#212729'}} placeholder='name'
                             value={toSend.from_name} onChange={handleChange} />
                         <input type='text' name='to_name' id="to_name" placeholder='name' className="btnHover  form-control w-100 my-1   btn btn-outline-primary text-white "
-                            style={{backgroundColor:'#004b49'}} value={'Silvia Satoar Plabon'} onChange={handleChange} />
+                            style={{backgroundColor:'#212729'}} value={'Silvia Satoar Plabon'} onChange={handleChange} />
                         <input type='text' name='reply_to' id="reply_to" className="btnHover  form -control w-100 my-1  btn btn-outline-primary  text-white "
-                            style={{backgroundColor:'#004b49'}} placeholder='Your email' value={toSend.reply_to} onChange={handleChange} />
+                            style={{backgroundColor:'#212729'}} placeholder='Your email' value={toSend.reply_to} onChange={handleChange} />
                         <textarea name='message' id="message"
                          className=" btnHover  form-control w-100 my-1  btn btn-outline-primary text-white"
-                          style={{backgroundColor:'#004b49'}} placeholder='Your message' value={toSend.message} onChange={handleChange} />
+                          style={{backgroundColor:'#212729'}} placeholder='Your message' value={toSend.message} onChange={handleChange} />
                         <div className="justify-content-center align-items-center ">
                             <button type='submit' className="mb-5 fw-bold btnHoverSubmit btn btn-sm w-50 mt-2 btn-outline-primary  text-white">Submit</button>
                         </div>

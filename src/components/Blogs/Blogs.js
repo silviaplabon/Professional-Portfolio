@@ -67,7 +67,7 @@ const Blogs = (props) => {
             dotListClass=""
             itemClass="carousel-item-padding-40-px"
             focusOnSelect={true}
-            renderDotsOutside={false}
+            renderDotsOutside={true}
               >
                 <div className="ms-3">
                     <div className="card h-100">

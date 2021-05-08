@@ -15,27 +15,10 @@ const EducationAndExperience = () => {
         document.getElementById('btn1').style.backgroundColor='#212729';
         document.getElementById('btn2').style.backgroundColor='#004b49';
       })
-    //   document.getElementById('btn2').addEventListener('mouseleave',function(){
-    //     document.getElementById('btn2').style.backgroundColor='#212729';
-    //     document.getElementById('btn1').style.backgroundColor='#004b49';
-    //   })
-
       document.getElementById('btn1').addEventListener('mouseenter',function(){
         document.getElementById('btn1').style.backgroundColor='#004b49';
         document.getElementById('btn2').style.backgroundColor='#212729';
       })
-    //   document.getElementById('btn1').addEventListener('mouseleave',function(){
-    //     document.getElementById('btn2').style.backgroundColor='#212729';
-    //     document.getElementById('btn1').style.backgroundColor='#004b49';
-    //   })
-    //   document.getElementById('btn1').addEventListener('click',function(){
-    //     document.getElementById('btn1').style.backgroundColor='#004b49';
-    //     document.getElementById('btn2').style.backgroundColor='#212729';
-    //   })
-    //   document.getElementById('btn2').addEventListener('click',function(){
-    //     document.getElementById('btn1').style.backgroundColor='#212729';
-    //     document.getElementById('btn2').style.backgroundColor='#004b49';
-    //   })
 
     {
         state==true &&<>

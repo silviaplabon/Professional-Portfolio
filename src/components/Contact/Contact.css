@@ -10,7 +10,7 @@
 }
 
 .btnHover:hover{
-    background-color:#212729!important;
+    background-color:#004b49!important;
     color:white!important;
     border:3px solid white!important;
 }
@@ -31,6 +31,11 @@ input::placeholder {
   }
   .btnHoverSubmit:hover{
     background-color: black!important;
+    color:white!important; border:3px solid #212729;
+    border:2px solid white!important;
+}
+.btnHoverSubmit{
+    background-color:#004b49!important;
     color:white!important; border:3px solid #212729;
     border:2px solid white!important;
 }

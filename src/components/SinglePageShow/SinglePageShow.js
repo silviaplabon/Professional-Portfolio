@@ -18,10 +18,10 @@ const SinglePageShow = (props) => {
                 state == false && content == 'about' &&
                 <div className="mb-5">
                     <Header></Header>
-                    <div className=" w-75 mt-5 mb-5  contentSection">
+                    <div className="  mt-5 mb-5  contentSection">
                         <About></About>
                     </div>
-                    <Footer></Footer>
+                    <Footer className=""></Footer>
                 </div>
             }
             {
